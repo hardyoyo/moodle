@@ -10,6 +10,10 @@
 	path = blocks/course_recent
 	url = https://github.com/ucsf-education/moodle-block-course_recent
 	branch = MOODLE_404_STABLE
+[submodule "blocks/quickmail"]
+	path = blocks/quickmail
+	url = https://github.com/ucsf-education/moodle-block_quickmail
+	branch = UCSFCLE_404_STABLE
 [submodule "filter/ucsfezproxy"]
 	path = filter/ucsfezproxy
 	url = https://github.com/ucsf-education/moodle-filter_ucsfezproxy
@@ -59,6 +63,10 @@
 	url = https://github.com/mdjnelson/moodle-mod_customcert
 	branch = MOODLE_404_STABLE
 	tag = v4.4.2
+[submodule "mod/diary"]
+	path = mod/diary
+	url = https://github.com/drachels/moodle-mod_diary
+	branch = master
 [submodule "mod/questionnaire"]
 	path = mod/questionnaire
 	url = https://github.com/PoetOS/moodle-mod_questionnaire
@@ -69,7 +77,3 @@
 	url = https://github.com/ncstate-delta/moodle-mod_zoom
 	branch = main
 	tag = v5.2.4
-[submodule "blocks/quickmail"]
-	path = blocks/quickmail
-	url = https://github.com/ucsf-education/moodle-block_quickmail
-	branch = UCSFCLE_404_STABLE
