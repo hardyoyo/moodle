@@ -85,3 +85,7 @@
 	url = https://github.com/ncstate-delta/moodle-mod_zoom
 	branch = main
 	tag = v5.2.4
+[submodule "enrol/ilios"]
+	path = enrol/ilios
+	url = https://github.com/ilios/moodle-enrol-ilios
+	branch = MOODLE_404_STABLE
