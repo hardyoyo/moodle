@@ -14,6 +14,10 @@
 	path = blocks/quickmail
 	url = https://github.com/ucsf-education/moodle-block_quickmail
 	branch = UCSFCLE_404_STABLE
+[submodule "course/format/topcoll"]
+	path = course/format/topcoll
+	url = https://github.com/gjbarnard/moodle-format_topcoll
+	branch = MOODLE_404
 [submodule "filter/ucsfezproxy"]
 	path = filter/ucsfezproxy
 	url = https://github.com/ucsf-education/moodle-filter_ucsfezproxy
