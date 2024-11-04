@@ -27,6 +27,11 @@
 	path = filter/ucsfezproxy
 	url = https://github.com/ucsf-education/moodle-filter_ucsfezproxy
 	branch = MOODLE_404_STABLE
+[submodule "lib/editor/tiny/plugins/fontcolor"]
+	path = lib/editor/tiny/plugins/fontcolor
+	url = https://github.com/bfh/moodle-tiny_fontcolor
+	branch = main
+	tag = V0.8
 [submodule "local/navbarhelpmenu"]
 	path = local/navbarhelpmenu
 	url = https://github.com/ucsf-education/moodle-local_navbarhelpmenu
