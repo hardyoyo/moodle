@@ -23,6 +23,10 @@
 	path = course/format/topcoll
 	url = https://github.com/gjbarnard/moodle-format_topcoll
 	branch = MOODLE_404
+[submodule "enrol/ilios"]
+	path = enrol/ilios
+	url = https://github.com/ilios/moodle-enrol-ilios
+	branch = MOODLE_404_STABLE
 [submodule "filter/ucsfezproxy"]
 	path = filter/ucsfezproxy
 	url = https://github.com/ucsf-education/moodle-filter_ucsfezproxy
