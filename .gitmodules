@@ -6,6 +6,11 @@
 	path = admin/tool/ilioscategoryassignment
 	url = https://github.com/ilios/tool_ilioscategoryassignment.git
 	branch = MOODLE_404_STABLE
+[submodule "blocks/checklist"]
+	path = blocks/checklist
+	url = https://github.com/davosmith/moodle-block_checklist
+	branch = master
+	tag = 3.4.3.2
 [submodule "blocks/course_recent"]
 	path = blocks/course_recent
 	url = https://github.com/ucsf-education/moodle-block-course_recent
@@ -18,10 +23,19 @@
 	path = course/format/topcoll
 	url = https://github.com/gjbarnard/moodle-format_topcoll
 	branch = MOODLE_404
+[submodule "enrol/ilios"]
+	path = enrol/ilios
+	url = https://github.com/ilios/moodle-enrol-ilios
+	branch = MOODLE_404_STABLE
 [submodule "filter/ucsfezproxy"]
 	path = filter/ucsfezproxy
 	url = https://github.com/ucsf-education/moodle-filter_ucsfezproxy
 	branch = MOODLE_404_STABLE
+[submodule "lib/editor/tiny/plugins/fontcolor"]
+	path = lib/editor/tiny/plugins/fontcolor
+	url = https://github.com/bfh/moodle-tiny_fontcolor
+	branch = main
+	tag = V0.8
 [submodule "local/navbarhelpmenu"]
 	path = local/navbarhelpmenu
 	url = https://github.com/ucsf-education/moodle-local_navbarhelpmenu
@@ -85,7 +99,3 @@
 	url = https://github.com/ncstate-delta/moodle-mod_zoom
 	branch = main
 	tag = v5.2.4
-[submodule "enrol/ilios"]
-	path = enrol/ilios
-	url = https://github.com/ilios/moodle-enrol-ilios
-	branch = MOODLE_404_STABLE
