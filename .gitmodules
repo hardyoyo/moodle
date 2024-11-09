@@ -9,7 +9,7 @@
 [submodule "admin/tool/ldapsync"]
 	path = admin/tool/ldapsync
 	url = https://github.com/ucsf-education/moodle-admin-tool-ldapsync
-	branch = main
+	branch = MOODLE_404_STABLE
 [submodule "blocks/attendance"]
 	path = blocks/attendance
 	url = https://github.com/danmarsden/moodle-block_attendance
