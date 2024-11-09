@@ -23,6 +23,11 @@
 	path = blocks/quickmail
 	url = https://github.com/ucsf-education/moodle-block_quickmail
 	branch = UCSFCLE_404_STABLE
+[submodule "blocks/massaction"]
+	path = blocks/massaction
+	url = https://github.com/Syxton/moodle-block_massaction
+	branch = master
+	tag = 7.3.1
 [submodule "course/format/topcoll"]
 	path = course/format/topcoll
 	url = https://github.com/gjbarnard/moodle-format_topcoll
