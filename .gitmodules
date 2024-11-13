@@ -6,6 +6,10 @@
 	path = admin/tool/ilioscategoryassignment
 	url = https://github.com/ilios/tool_ilioscategoryassignment.git
 	branch = MOODLE_404_STABLE
+[submodule "admin/tool/ldapsync"]
+	path = admin/tool/ldapsync
+	url = https://github.com/ucsf-education/moodle-admin-tool-ldapsync
+	branch = MOODLE_404_STABLE
 [submodule "availability/condition/mobileapp"]
 	path = availability/condition/mobileapp
 	url = https://github.com/ucsf-education/moodle-availability_mobileapp
@@ -27,6 +31,11 @@
 	path = blocks/quickmail
 	url = https://github.com/ucsf-education/moodle-block_quickmail
 	branch = UCSFCLE_404_STABLE
+[submodule "blocks/massaction"]
+	path = blocks/massaction
+	url = https://github.com/Syxton/moodle-block_massaction
+	branch = master
+	tag = 7.3.1
 [submodule "course/format/topcoll"]
 	path = course/format/topcoll
 	url = https://github.com/gjbarnard/moodle-format_topcoll
