@@ -44,6 +44,10 @@
 	path = enrol/ilios
 	url = https://github.com/ilios/moodle-enrol-ilios
 	branch = MOODLE_404_STABLE
+[submodule "enrol/ucsfsis"]
+	path = enrol/ucsfsis
+	url = https://github.com/ucsf-education/moodle-enrol-ucsfsis
+	branch = main
 [submodule "filter/ucsfezproxy"]
 	path = filter/ucsfezproxy
 	url = https://github.com/ucsf-education/moodle-filter_ucsfezproxy
