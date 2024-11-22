@@ -10,6 +10,10 @@
 	path = admin/tool/ldapsync
 	url = https://github.com/ucsf-education/moodle-admin-tool-ldapsync
 	branch = MOODLE_404_STABLE
+[submodule "admin/tool/ucsfsomapi"]
+	path = admin/tool/ucsfsomapi
+	url = https://github.com/ucsf-education/tool_ucsfsomapi.git
+	branch = MOODLE_404_STABLE
 [submodule "availability/condition/mobileapp"]
 	path = availability/condition/mobileapp
 	url = https://github.com/ucsf-education/moodle-availability_mobileapp
@@ -27,15 +31,15 @@
 	path = blocks/course_recent
 	url = https://github.com/ucsf-education/moodle-block-course_recent
 	branch = MOODLE_404_STABLE
-[submodule "blocks/quickmail"]
-	path = blocks/quickmail
-	url = https://github.com/ucsf-education/moodle-block_quickmail
-	branch = UCSFCLE_404_STABLE
 [submodule "blocks/massaction"]
 	path = blocks/massaction
 	url = https://github.com/Syxton/moodle-block_massaction
 	branch = master
 	tag = 7.3.1
+[submodule "blocks/quickmail"]
+	path = blocks/quickmail
+	url = https://github.com/ucsf-education/moodle-block_quickmail
+	branch = UCSFCLE_404_STABLE
 [submodule "course/format/topcoll"]
 	path = course/format/topcoll
 	url = https://github.com/gjbarnard/moodle-format_topcoll
@@ -57,27 +61,15 @@
 	url = https://github.com/bfh/moodle-tiny_fontcolor
 	branch = main
 	tag = V0.8
-[submodule "local/navbarhelpmenu"]
-	path = local/navbarhelpmenu
-	url = https://github.com/ucsf-education/moodle-local_navbarhelpmenu
-	branch = MOODLE_404_STABLE
-[submodule "question/type/knowledgecheck"]
-	path = question/type/knowledgecheck
-	url = https://github.com/ucsf-education/knowledgecheck.git
-	branch = MOODLE_404_STABLE
-[submodule "theme/ucsf"]
-	path = theme/ucsf
-	url = https://github.com/ucsf-education/moodle-theme-ucsf
-	branch = MOODLE_404_STABLE
-[submodule "admin/tool/ucsfsomapi"]
-	path = admin/tool/ucsfsomapi
-	url = https://github.com/ucsf-education/tool_ucsfsomapi.git
-	branch = MOODLE_404_STABLE
 [submodule "local/maintenance_livecheck"]
 	path = local/maintenance_livecheck
 	url = https://github.com/moodle-an-hochschulen/moodle-local_maintenance_livecheck
 	branch = MOODLE_404_STABLE
 	tag = v4.4-r1
+[submodule "local/navbarhelpmenu"]
+	path = local/navbarhelpmenu
+	url = https://github.com/ucsf-education/moodle-local_navbarhelpmenu
+	branch = MOODLE_404_STABLE
 [submodule "local/staticpage"]
 	path = local/staticpage
 	url = https://github.com/moodle-an-hochschulen/moodle-local_staticpage
@@ -120,12 +112,25 @@
 	url = https://github.com/ncstate-delta/moodle-mod_zoom
 	branch = main
 	tag = v5.2.4
+[submodule "question/type/knowledgecheck"]
+	path = question/type/knowledgecheck
+	url = https://github.com/ucsf-education/knowledgecheck.git
+	branch = MOODLE_404_STABLE
 [submodule "question/type/wordselect"]
 	path = question/type/wordselect
 	url = https://github.com/marcusgreen/moodle-qtype_wordselect
 	branch = master
 	tag = v2.53
+[submodule "report/benchmark"]
+	path = report/benchmark
+	url = https://github.com/mikasmart/benchmark
+	branch = master
+	tag = v1.5.1
 [submodule "repository/boxnet"]
 	path = repository/boxnet
 	url = https://github.com/moodlehq/moodle-repository_boxnet
 	branch = master
+[submodule "theme/ucsf"]
+	path = theme/ucsf
+	url = https://github.com/ucsf-education/moodle-theme-ucsf
+	branch = MOODLE_404_STABLE
