@@ -129,3 +129,7 @@
 	url = https://github.com/marcusgreen/moodle-qtype_wordselect
 	branch = master
 	tag = v2.53
+[submodule "repository/boxnet"]
+	path = repository/boxnet
+	url = https://github.com/moodlehq/moodle-repository_boxnet
+	branch = master
