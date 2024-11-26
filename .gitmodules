@@ -107,6 +107,10 @@
 	path = mod/quiz/report/archive
 	url = https://github.com/bfh/moodle-quiz_archive
 	branch = main
+[submodule "mod/turnitintooltwo"]
+	path = mod/turnitintooltwo
+	url = https://github.com/ucsf-education/moodle-mod_turnitintooltwo
+	branch = UCSFCLE_404_STABLE
 [submodule "mod/zoom"]
 	path = mod/zoom
 	url = https://github.com/ncstate-delta/moodle-mod_zoom
