@@ -4,7 +4,7 @@ on:
 jobs:
   SonarQube_Scan:
     name: Scan with UCSF SonarQube
-    runs-on: ubuntu-latest-large
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
@@ -16,5 +16,5 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=ucsf-education_moodle_ab414c18-b81d-4ee0-9125-2904626af99b
-            -Dsonar.exclusions=**/node_modules/**,**/vendor/**,**/tests/behat/**,**/*.xml,**/*.xsd,**/*.xsl,**/*.config
+            -Dsonar.exclusions=***/build/**,**/dist/**,**/node_modules/**,**/vendor/**,**/*.min.js,**/*.min.css,**/packages/**,**/tests/behat/**,**/*.xml,**/*.xsd,**/*.xsl,**/*.config
             -Dsonar.scanner.javaOpts=-Xmx4g
