@@ -18,3 +18,5 @@ jobs:
             -Dsonar.projectKey=ucsf-education_moodle_ab414c18-b81d-4ee0-9125-2904626af99b
             -Dsonar.exclusions=***/build/**,**/dist/**,**/node_modules/**,**/vendor/**,**/*.min.js,**/*.min.css,**/packages/**,**/tests/behat/**,**/*.xml,**/*.xsd,**/*.xsl,**/*.config
             -Dsonar.scanner.javaOpts=-Xmx4g
+            -Dsonar.sources=mod
+            -Dsonar.inclusions=**/*.php
