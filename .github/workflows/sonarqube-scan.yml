@@ -23,9 +23,7 @@ jobs:
             -Dsonar.language=php
             -Dsonar.sources=mod,lib/antivirus,customfield/field,files/converter,lib/mlbackend,blocks,question/type,question/behaviour,question/format,filter,lib/editor,lib/editor/atto/plugins,enrol,auth,admin/tool,admin/tool/log/store,availability/condition,calendar/type,message/output,course/format,dataformat,user/profile/field,report,course/report,grade/export,grade/import,grade/report,grade/grading/form,mnet/service,webservice,repository,portfolio,search/engine,media/player,plagiarism,cache/stores,cache/locks,theme,local,contentbank/contenttype,h5p/h5plib,question/bank
             -Dsonar.inclusions=**/*.php
-            -Dsonar.exclusions=**moodledata/**,**/cache/**,**/node_modules/**,**/dist/**,**/vendor/**,**/packages/**,**/*.xml,**/*.xsd,**/*.xsl,**/*.config
-            -Dsonar.lang.patterns.xml=
-            -Dsonar.lang.patterns.mule=
+            -Dsonar.exclusions=**/tests/fixtures/**,**moodledata/**,**/cache/**,**/node_modules/**,**/dist/**,**/vendor/**,**/packages/**,**/*.xml,**/*.xsd,**/*.xsl,**/*.config
             -Dsonar.scanner.javaOpts=-Xmx8g
             -Dsonar.verbose=true
             
