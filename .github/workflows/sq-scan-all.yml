@@ -20,7 +20,6 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=ucsf-education_moodle_ab414c18-b81d-4ee0-9125-2904626af99b
-            -Dsonar.language=php
             -Dsonar.sources=mod,lib/antivirus,customfield/field,files/converter,lib/mlbackend,blocks,question/type,question/behaviour,question/format,filter,lib/editor,enrol,auth,admin/tool,availability/condition,calendar/type,message/output,course/format,dataformat,user/profile/field,report,course/report,grade/export,grade/import,grade/report,grade/grading/form,mnet/service,webservice,repository,portfolio,search/engine,media/player,plagiarism,cache/stores,cache/locks,theme,local,contentbank/contenttype,h5p/h5plib,question/bank
             -Dsonar.lang.patterns.mule=-
             -Dsonar.excludePlugins=mule
