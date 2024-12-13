@@ -22,4 +22,4 @@ jobs:
             -Dsonar.projectKey=ucsf-education_moodle_ab414c18-b81d-4ee0-9125-2904626af99b
             -Dsonar.lang.patterns.mule=-
             -Dsonar.excludePlugins=mule
-            -Dsonar.scanner.javaOpts=-Xmx8g
+            -Dsonar.scanner.javaOpts=-Xmx16g
