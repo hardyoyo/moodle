@@ -23,10 +23,9 @@ jobs:
             -Dsonar.lang.patterns.mule=-
             -Dsonar.excludePlugins=mule
             -Dsonar.exclusions=mod,lib/antivirus,customfield/field,files/converter,lib/mlbackend,blocks,question/type,question/behaviour,question/format,filter,lib/editor,enrol,auth,admin/tool,availability/condition,calendar/type,message/output,course/format,dataformat,user/profile/field,report,course/report,grade/export,grade/import,grade/report,grade/grading/form,mnet/service,webservice,repository,portfolio,search/engine,media/player,plagiarism,cache/stores,cache/locks,theme,local,contentbank/contenttype,h5p/h5plib,question/bank
-            -Dsonar.inclusions=**/*.{js,jsx,ts,tsx,css,scss,xml,cass,mustache,json,html}
-            -Dsonar.javascript.file.suffixes=.js,.jsx,.mocha.js,.spec.js,.test.js
+            -Dsonar.inclusions=**/*.js,**/*.jsx,**/*.ts,**/*.tsx,**/*.css,**/*.scss,**/*.xml,**/*.cass,**/*.mustache,**/*.json,**/*.html
+            -Dsonar.javascript.file.suffixes=.js,.jsx,.mocha.js,.spec.js,.test.js,.st,.tsx
             -Dsonar.language=js,css,xml,cass,mustache,json,ts,html 
-            -Dsonar.javascript.file.suffixes=.js,.jsx,.ts,.tsx
             -Dsonar.typescript.file.suffixes=.ts,.tsx
             -Dsonar.css.file.suffixes=.css,.scss
             -Dsonar.html.file.suffixes=.html
